@@ -1,54 +1,54 @@
 # Jokes RestAPI Using Nodejs
 
-I have created an array with random jokes stored in a array,When the http standard request you can access the joke you like too.
+I have created an array with random jokes stored in an array, When the http standard requests you can access the joke you like too.
 
 ## API Reference End-Points
 
 #### local host
 
-```http
-    http:localhost300
+```https
+    https:localhost300
 ```
 
 #### GET random Jokes
 
-```http
+```https
   GET /random/
 ```
 
 #### GET Specific Joke
 
-```http
+```https
   GET /jokes/:id
 ```
 
 #### GET a joke by filtering on a joke type
 
-```http
+```https
   GET /filter?type="Your_Type"
 ```
 
 #### POST a new Joke
 
-```http
+```https
   POST /jokes
 ```
 
 #### PUT a joke
 
-```http
+```https
   PUT /jokes/:id
 ```
 
 #### PATCH a joke
 
-```http
+```https
   PATCH /jokes/:id
 ```
 
 #### DELETE a joke
 
-```http
+```https
   DELETE:  /jokes/:id
            /all
 ```
